@@ -30,16 +30,18 @@ src/traits - Вспомогательные трейты
 
 # Устанавливаем через composer
 
-Вы можете скачать данный SDK с GitHub по ссылке https://github.com/metaseller/teletype-sdk-php, 
-либо установить его через [composer](http://getcomposer.org/download/)
+Вы можете скачать данный SDK с GitHub по ссылке https://github.com/metaseller/teletype-sdk-php, либо просто выполнить в 
+консоли команды
 
-```
-$ composer require metaseller/teletype-sdk-php 
-```
-ну либо
 ```
 $ git clone git@github.com:metaseller/teletype-sdk-php .
 composer update
+```
+
+Также вы можете установить SDK в свой проект через [composer](http://getcomposer.org/download/)
+
+```
+$ composer require metaseller/teletype-sdk-php 
 ```
 
 Для работы с API вам понадобится token доступа. Для этого Вам нужно зарегистрироваться в сервисе https://teletype.app/, 
