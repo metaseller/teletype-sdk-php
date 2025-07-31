@@ -2,7 +2,6 @@
 
 namespace Metaseller\TeletypeApp\services;
 
-use Metaseller\TeletypeApp\ClientConnection;
 use Metaseller\TeletypeApp\exceptions\TeletypeBadRequestBaseException;
 use Metaseller\TeletypeApp\exceptions\TeletypeBadRequestExceptionWithContext;
 use Metaseller\TeletypeApp\exceptions\TeletypeForbiddenException;
