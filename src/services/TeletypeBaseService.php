@@ -11,7 +11,7 @@ use Metaseller\TeletypeApp\TeletypeServices;
 use Throwable;
 
 /**
- * Абстрактный класс сервиса Teletype App Api
+ * Абстрактный класс сервиса Teletype App API
  *
  * @package Metaseller\TeletypeApp
  */

@@ -29,8 +29,8 @@ class TeletypeServices
     /**
      * Конструктор класса
      *
-     * @param string|null $api_token Токен доступа к Teletype App Api
-     * @param string|null $app_name Значение AppName для запросов к Teletype App Api. Если установлено <code>null</code>,
+     * @param string|null $api_token Токен доступа к Teletype App API
+     * @param string|null $app_name Значение AppName для запросов к Teletype App API. Если установлено <code>null</code>,
      * то будет использовано значение {@link TeletypeServices::DEFAULT_APP_NAME}
      * @param ClientConnection|null $user_client_connection Экземпляр модели настроек соединения с API сервиса Teletype App
      */
@@ -44,9 +44,9 @@ class TeletypeServices
     }
 
     /**
-     * Метод обновляет токен доступа к Teletype App Api
+     * Метод обновляет токен доступа к Teletype App API
      *
-     * @param string $api_token Токен доступа к Teletype App Api
+     * @param string $api_token Токен доступа к Teletype App API
      *
      * @return $this Текущий экземпляр модели
      */
@@ -91,8 +91,8 @@ class TeletypeServices
     /**
      * Метод создания экземпляра Фабрики сервисов
      *
-     * @param string|null $api_token Токен доступа к Teletype App Api
-     * @param string|null $app_name Значение AppName для запросов к Teletype App Api. Если установлено <code>null</code>,
+     * @param string|null $api_token Токен доступа к Teletype App API
+     * @param string|null $app_name Значение AppName для запросов к Teletype App API. Если установлено <code>null</code>,
      * то будет использовано значение {@link TeletypeServices::DEFAULT_APP_NAME}
      * @param ClientConnection|null $user_client_connection Экземпляр модели настроек соединения с API сервиса Teletype App
      *

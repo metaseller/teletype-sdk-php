@@ -120,7 +120,7 @@ class ClientConnection
     }
 
     /**
-     * Установка значений опций соединения с сервисом Teletype App Api по умолчанию
+     * Установка значений опций соединения с сервисом Teletype App API по умолчанию
      *
      * @return $this Текущий экземпляр
      */
@@ -141,7 +141,7 @@ class ClientConnection
     }
 
     /**
-     * Метод установки пользовательских опций соединения с сервисом Teletype App Api
+     * Метод установки пользовательских опций соединения с сервисом Teletype App API
      *
      * @param array $user_options Массив пользовательских настроек для Curl Transfer
      *
@@ -156,7 +156,7 @@ class ClientConnection
     }
 
     /**
-     * Метод частичного обновления опций соединения с сервисом Teletype App Api
+     * Метод частичного обновления опций соединения с сервисом Teletype App API
      *
      * @param array $user_options Массив пользовательских настроек для Curl Transfer
      *
@@ -170,9 +170,9 @@ class ClientConnection
     }
 
     /**
-     * Метод получения опций соединения с сервисом Teletype App Api
+     * Метод получения опций соединения с сервисом Teletype App API
      *
-     * @return array Массив опций соединения с сервисом Teletype App Api
+     * @return array Массив опций соединения с сервисом Teletype App API
      */
     public function getClientOptions(): array
     {
@@ -182,7 +182,7 @@ class ClientConnection
     /**
      * Метод-сеттер значения {@link ClientConnection::$_app_name}
      *
-     * @param string $app_name X-App-Name для запросов к Teletype App Api
+     * @param string $app_name X-App-Name для запросов к Teletype App API
      *
      * @return $this Текущий экземпляр модели
      */
@@ -196,7 +196,7 @@ class ClientConnection
     /**
      * Метод-геттер значения {@link ClientConnection::$_app_name}
      *
-     * @return string X-App-Name для запросов к Teletype App Api
+     * @return string X-App-Name для запросов к Teletype App API
      */
     public function getAppName(): string
     {

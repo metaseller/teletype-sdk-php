@@ -6,7 +6,7 @@ use Metaseller\TeletypeApp\exceptions\TeletypeLibraryException;
 use Metaseller\TeletypeApp\TeletypeServices;
 
 /**
- * Абстрактный класс модели данных Teletype App Api
+ * Абстрактный класс модели данных Teletype App API
  *
  * @property-read TeletypeServices $teletypeServicesFactory Фабрика доступа к сервисам Teletype App API
  *

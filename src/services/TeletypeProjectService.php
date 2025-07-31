@@ -10,7 +10,7 @@ use Metaseller\TeletypeApp\models\TeletypeOperator;
 use Metaseller\TeletypeApp\models\TeletypeProject;
 
 /**
- * Модель сервиса работы с проектами Teletype App Api
+ * Модель сервиса работы с проектами Teletype App API
  *
  * @package Metaseller\TeletypeApp
  */
