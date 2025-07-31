@@ -46,7 +46,7 @@ var_dump($project->asArray());
 
 echo PHP_EOL;
 
-/** Выводим полученную информацию о проекте в сериализованном вида */
+/** Выводим полученную информацию о проекте в сериализованном виде */
 echo PHP_EOL . 'Project as json:' . PHP_EOL;
 
 var_dump($project->asJson());
@@ -96,7 +96,7 @@ if ($owner) {
     echo 'Project owner data:' . PHP_EOL;
     var_dump($owner->asArray());
 
-    /** Выводим полученную информацию о проекте в сериализованном вида */
+    /** Выводим полученную информацию о проекте в сериализованном виде */
     var_dump($owner->asJson());
 } else {
     echo 'Owner model is empty';
