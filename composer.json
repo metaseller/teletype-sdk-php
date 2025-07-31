@@ -1,0 +1,35 @@
+{
+    "name": "metaseller/teletype-sdk-php",
+    "version": "0.1.0",
+    "description": "PHP SDK for Teletype App Public API",
+    "type": "library",
+    "license": "Apache-2.0",
+    "keywords": [
+        "php",
+        "teletype",
+        "api"
+    ],
+    "homepage": "https://github.com/metaseller/teletype-sdk-php",
+    "authors": [
+        {
+            "name": "Igor Frolenkov",
+            "email": "igor@frolenkov.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Metaseller\\TeletypeApp\\": "src",
+            "Metaseller\\TeletypeApp\\exceptions\\": "src/exceptions",
+            "Metaseller\\TeletypeApp\\models\\": "src/models",
+            "Metaseller\\TeletypeApp\\services\\": "src/services",
+            "Metaseller\\TeletypeApp\\traits\\": "src/traits"
+        }
+    },
+    "require-dev": {
+        "rector/rector": "dev-main"
+    }
+}
